@@ -7,7 +7,7 @@
 }
 
 .card-images {
-    padding: 10px;
+    padding: 15px;
     height: 200px;
     width: 200px;
     object-fit: contain;
@@ -15,6 +15,29 @@
 }
 
 .cards {
-    max-width: 15rem;
+    max-width: 16rem;
     text-align: center;
+}
+.carousal-image {
+    height: 400px;
+    object-fit: cover;
+}
+
+
+
+@media (max-width:576px) {
+    .cards {
+        width: 300px;
+    }
+
+    .card-images {
+
+        height: 160px;
+        width: 160px;
+    }
+
+    .carousal-image {
+        height: 200px;
+        object-fit: cover;
+    }
 }
