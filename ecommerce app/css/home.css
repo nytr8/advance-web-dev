@@ -1,5 +1,5 @@
 .navbar-container {
-    height: 3rem;
+    height: 4rem;
 }
 
 nav {
@@ -9,17 +9,25 @@ nav {
 
 .navbar-list a:last-child {
     color: var(--pale-blue);
+    font-weight: bold;
+}
+
+.navbar-list a:nth-child(4) {
+    color: var(--pale-blue);
+    font-weight: bold;
 }
 
 .navbar-list {
     display: flex;
     align-items: center;
+
 }
 
 .site-logo {
     display: flex;
     align-items: center;
 }
+
 .site-logo a {
     font-weight: bolder;
     letter-spacing: 5px;

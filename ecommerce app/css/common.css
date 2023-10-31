@@ -1,15 +1,28 @@
-* {
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 *,
-*::before,
-*::after {
+*:before,
+*:after {
     box-sizing: inherit;
 }
 
 :root {
     --pale-blue: #5278eb;
+    --grey: rgba(143, 143, 143, 0.487);
 }
