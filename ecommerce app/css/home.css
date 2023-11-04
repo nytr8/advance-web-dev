@@ -63,24 +63,37 @@ nav {
 
 .catagori-divs-items {
     flex-wrap: wrap;
+    text-align: center;
+
 }
 
 .catagori-divs-items a p {
     font-weight: 700;
     color: black;
+    background-color: rgba(152, 152, 152, 0.178);
+    border-radius: 5px;
+    padding: 5px;
+    transition: all .2s ease-in-out;
 }
 
 .catagori-divs-items a {
     min-width: 15rem;
     max-width: 15rem;
-    /* background-color: var(--pale-blue); */
+
     box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.141);
     transition: all .2s ease-in-out;
     cursor: pointer;
 }
 
 .catagori-divs-items a:hover {
+    transform: scale(105%);
+    background-color: white;
+
+}
+
+.catagori-divs-items a p:hover {
     box-shadow: none;
+    background-color: rgba(130, 130, 130, 0.063);
 
 }
 
@@ -91,4 +104,8 @@ nav {
     width: 200px;
     height: 200px;
     margin: auto;
+}
+
+.footer {
+    background-color: var(--grey);
 }
