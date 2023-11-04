@@ -1,0 +1,35 @@
+.cart-wraper {
+   min-height: 70vh;
+}
+
+.cart-quantity-section {
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.cart-img-div {
+    width: 80%;
+    padding: 5px;
+    text-align: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.166);
+}
+
+.cart-img-div img {
+    object-fit: contain;
+    height: 200px;
+    width: 200px;
+}
+
+.cart-product-details {
+    margin-top: 30px;
+    /* text-align: justify; */
+    margin-block: auto;
+}
+.checkout{
+    width: 40%;
+    margin: auto;
+}
+.checkout p{
+   margin-block: 5px;
+}

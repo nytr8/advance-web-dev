@@ -20,7 +20,15 @@
             </div>
             <div class=" navbar-list ">
                 <a href="cart.html" class=" text-decoration-none fs-5 mx-2 ">cart</a>
-                <a href="" class=" text-decoration-none fs-5 mx-2 ">catagory</a>
+                <ul class="navbar-nav mx-2  fs-5">
+                    <li class="nav-item dropdown">
+                        <a href="" class="    nav-link dropdown-toggle " role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">catagory</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="productlist.html">All catagory</a></li>
+                        </ul>
+                    </li>
+                </ul>
                 <a href="" class=" text-decoration-none fs-5 mx-2 ">hi user</a>
                 <a href="loginpage.html" class=" text-decoration-none  ms-5 btn btn-light  ">login</a>
                 <a href="signup.html" class=" text-decoration-none  ms-3 btn btn-light  ">signup</a>
@@ -46,15 +54,12 @@
                 <input type="password" class="form-control" id="exampleInputPassword1">
             </div>
             <div class="d-grid gap-2 mt-2">
-                <a href="index.html" type="submit" class="btn btn-primary text-decoration-none" style="color: white;">register
+                <a href="index.html" type="submit" class="btn btn-primary text-decoration-none"
+                    style="color: white;">register
                 </a>
             </div>
-           
-            <div class="d-grid gap-2 mt-2">
-                <a href="loginpage.html" type="submit" class="btn btn-warning text-decoration-none"
-                    style="color: white;">login
-                </a>
-            </div>
+
+            <p class="text-center mt-4">dont have an account ? <a href="loginpage.html">login here</a></p>
         </form>
     </section>
 

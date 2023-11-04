@@ -5,6 +5,9 @@
 nav {
     background-color: var(--pale-blue);
     color: white;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0px 5px 30px 10px rgba(0, 0, 0, 0.386);
 }
 
 .navbar-list a:last-child {
@@ -43,7 +46,7 @@ nav {
     height: 30rem;
     width: 100%;
     object-fit: cover;
-    opacity: .2;
+    opacity: .1;
 }
 
 .header-div-text {

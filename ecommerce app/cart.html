@@ -21,13 +21,106 @@
             </div>
             <div class=" navbar-list ">
                 <a href="cart.html" class=" text-decoration-none fs-5 mx-2 ">cart</a>
-                <a href="" class=" text-decoration-none fs-5 mx-2 ">catagory</a>
+                <ul class="navbar-nav mx-2  fs-5">
+                    <li class="nav-item dropdown">
+                        <a href="" class="    nav-link dropdown-toggle " role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">catagory</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="productlist.html">All catagory</a></li>
+                        </ul>
+                    </li>
+                </ul>
                 <a href="" class=" text-decoration-none fs-5 mx-2 ">hi user</a>
                 <a href="loginpage.html" class=" text-decoration-none  ms-5 btn btn-light  ">login</a>
                 <a href="signup.html" class=" text-decoration-none  ms-3 btn btn-light  ">signup</a>
             </div>
         </div>
     </nav>
+    <section class="container">
+        <div class="cart-wraper mt-5">
+            <h1 class="text-center mb-4">Your cart</h1>
+            <div class="row  ">
+                <div class="col ">
+                    <div class="cart-product-wrapper rounded-4 border d-flex gap-3 p-3 m-3">
+                        <div class="cart-img-div">
+                            <img src="images/monitor.webp" alt="">
+
+                        </div>
+                        <div class="d-flex flex-column cart-product-details">
+                            <h3>samsung monitor</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, adipisci!</p>
+                            <p>price : <span>₹10,000</span></p>
+                            <div class="d-flex gap-3 cart-quantity-section">
+                                <p class="fw-semibold">quantity:</p>
+                                <select name="" id="" class="form-control ">
+                                    <option value="">1</option>
+                                    <option value="">2</option>
+                                    <option value="">3</option>
+                                </select>
+
+                                <a href="" class="btn btn-danger "> remove</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-product-wrapper rounded-4 border d-flex gap-3 p-3 m-3">
+                        <div class="cart-img-div">
+                            <img src="images/monitor.webp" alt="">
+
+                        </div>
+                        <div class="d-flex flex-column cart-product-details">
+                            <h3>samsung monitor</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, adipisci!</p>
+                            <p>price : <span>₹10,000</span></p>
+                            <div class="d-flex gap-3 cart-quantity-section">
+                                <p class="fw-semibold">quantity:</p>
+                                <select name="" id="" class="form-control ">
+                                    <option value="">1</option>
+                                    <option value="">2</option>
+                                    <option value="">3</option>
+                                </select>
+
+                                <a href="" class="btn btn-danger "> remove</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="checkout  ">
+                        <h4 class="text-center">price details</h4>
+                        <hr>
+                        <div class="d-flex justify-content-between">
+                            <p class="fw-semibold">price </p>
+                            <p>₹10,000</p>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <p class="fw-semibold">discount </p>
+                            <p>₹10</p>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <p class="fw-semibold">delivery charges </p>
+                            <p>Free</p>
+                        </div>
+                        <hr>
+                        <div class="d-flex justify-content-between">
+                            <p class="fw-semibold">Total </p>
+                            <p>₹9990</p>
+                        </div>
+                        <div class="d-grid">
+                            <a href="" class="btn btn-primary fw-semibold">checkout</a>
+
+                        </div>
+                        <div class="d-grid mt-2">
+                            <a href="" class="btn btn-warning fw-semibold">continue shopping</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
     <div class="container">
         <footer class="py-3 my-4">
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
